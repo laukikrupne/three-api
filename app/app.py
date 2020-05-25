@@ -105,7 +105,7 @@ class wine(Resource):
         prediction = self.model.predict(datax)[0]
         retMap = {
             'Status Code': 200,
-            'Price': prediction
+            'Target': prediction
         }
         return jsonify(retMap)
         
