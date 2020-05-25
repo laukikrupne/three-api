@@ -6,3 +6,4 @@ tensorflow
 pandas
 pickle-mixin
 gunicorn
+scikit-learn
